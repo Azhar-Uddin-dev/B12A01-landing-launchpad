@@ -6,10 +6,11 @@
   font-variation-settings:
     "wdth" 100;
     /* fixt-style */
-    *{
-        /* margin: 50px 150px; */
-    }
-    .button{
+ button:hover{
+    background-color: bisque;
+    color: brown;
+ }
+   .button{
         background-color:rgb(78, 71, 255) ;
     color: rgb(255, 255, 255);
     font-weight: 700px;
@@ -233,7 +234,36 @@ border-radius:14PX ;
 /* footer-style */
 .footer-title{
     font-weight:900px;
-    font-size: ;
-    color: ;
+    font-size: 100px;
+    color:rgb(78, 71, 255) ;
     text-align: center;
+    padding-top: 103px;
+}
+.footer-derscption{
+    font-size:16px ;
+    font-weight:400px ;
+    color:rgb(137, 135, 161) ;
+    text-align: center;
+}
+a:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+.footer-link {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.link-contener{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 103px;
+    
+}
+footer{
+    background-color: rgb(255, 255, 255);
 }
