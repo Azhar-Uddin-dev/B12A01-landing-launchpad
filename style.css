@@ -81,6 +81,16 @@ margin-top: 37px;
     border-radius: 48px;
     margin-right: 40px;
 }
+.img-icon{
+    display: inline;
+    border-radius: 100%;
+    padding-top:10px;
+}
+.ICON-NAME{
+    display: flex;
+    gap: 20px;
+    
+}
 
 
 /* main-users-section-style */
